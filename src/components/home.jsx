@@ -73,6 +73,11 @@ class Home extends PureComponent {
         loading: false,
         count: 0,
         searchText: "",
+        filters: {
+          species: [],
+          gender: [],
+          status: [],
+        },
       },
       () => {
         callback();
