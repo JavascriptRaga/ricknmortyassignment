@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+  }
+  .characters {
+    padding: 20px 0;
+  }
+  .characters .charactersWrap > a {
+    flex: 0 1 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .characters .charactersWrap > a {
+    flex: 0 1 25%;
+  }
+}

@@ -1,0 +1,19 @@
+.pagination {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .pagination li a {
+    display: block;
+    padding: 6px 6px;
+    margin: 3px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #484848;
+    border-radius: 3px;
+  }
+  .pagination li a.active {
+    background-color: #000;
+  }

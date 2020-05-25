@@ -1,0 +1,17 @@
+.filtersWrap {
+    padding: 20px 10px 0px;
+    min-width: 300px;
+  }
+  .filtersWrap .checkbox-list {
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .filtersWrap .checkbox-list h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .filtersWrap .checkbox-list label {
+    display: block;
+  }
